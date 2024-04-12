@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
                     GreetingImage(message = getString(R.string.happy_birthday_text), from = getString(
                         R.string.signature_text
                     ))
-                    //GreetingText(message = "Happy Birthday Manuel!", from = "From Jefferson")
+                    
                 }
             }
         }
