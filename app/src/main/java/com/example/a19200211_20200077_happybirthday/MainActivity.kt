@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.a19200211_20200077_happybirthday.ui.theme._19200211_20200077_HappyBirthdayTheme
 
-class MainActivity : ComponentActivity() {
+    class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -38,11 +38,11 @@ class MainActivity : ComponentActivity() {
                         R.string.signature_text
                     ))
                     
-                }
+                    }
+                }    
             }
         }
     }
-}
 
 @Composable
 fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
